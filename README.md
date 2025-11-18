@@ -1,4 +1,4 @@
-# FITCHECK Report Automation
+# FITCHECK Report Automation by parsing collector generate output
 
 This tool automates the processing of Nutanix Collector excel reports. It extracts key VM metrics (CPU, memory, disk), generates visual charts, and provides a summarized report for stakeholders. 
 
@@ -15,7 +15,7 @@ This tool automates the processing of Nutanix Collector excel reports. It extrac
 - Provides both technical (charts) and executive-friendly (summary file) outputs.  
 
 # Usage
-- Place FITCHECK Excel files in the input folder.  
+- Place Collector ouput Excel files in the input folder.  
 - Run the notebook/script.  
 - Review generated outputs:  
   - Charts (`memory_usage.png`, `cpu_usage.png`, `disk_usage.png`)  
